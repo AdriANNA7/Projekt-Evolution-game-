@@ -1,6 +1,6 @@
 # Projekt-Evolution-game-
 
-[1. Einleitung)(#1)
+[1. Einleitung](#1)
 
 [2. Aufbau/Konzept](#2)
 
