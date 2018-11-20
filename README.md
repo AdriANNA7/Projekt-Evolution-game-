@@ -34,4 +34,5 @@ Das gleiche passiert, wenn man die *Spacetaste* drückt. Allerdings gibt es hier
 ![1 2](https://user-images.githubusercontent.com/42734752/48783732-691b6580-ece1-11e8-8b5e-8f577458cee8.jpg)
 
 Dies ist unser erstes Sprite mit dem ersten Script. Dieser wird mit den Pfeiltasten gesteuert, sodass er sich über den Bildschirm bewegt.
+
 ![sprite bewegung](https://user-images.githubusercontent.com/42734752/48779370-c0b4d380-ecd7-11e8-8cb2-51cf34407c0c.jpg)
