@@ -62,8 +62,15 @@ Score: 31 - 40 : Krebs**
 
 Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand. Zusätzlich erscheint eine goldene 30, damit der Evolutionsschritt vom Wasser zum Land noch deutlicher gemacht wird. Das goldene 30 ist Sprite 3.
 
+![informatik 30](https://user-images.githubusercontent.com/42734752/48854235-acdda000-edb1-11e8-859d-170371d7d270.jpg)
+
 
 ## Schwierigkeitslevel<a name="4"></a>
 
-Um das Spiel schwieriger zu machen, gibt es auch noch ein viertes Sprite, welches einen Feind darstellt. In dem Evolutionsspiel ist dies ein Hai. Dieser gleitet im Abstand von zehn Sekunden auf der X-Achse an beliebigen Stellen der Y-Achse entlang. Wird die Spielfigur von diesem Hai berührt ist das Spiel vorbei, da man "gefressen" wird. Die Spielfigur beendet das Spiel in dem es "Game over" sagt.
+Um das Spiel schwieriger zu machen, gibt es auch noch ein viertes Sprite, welches einen Feind darstellt. In dem Evolutionsspiel ist dies ein Hai. Dieser gleitet im Abstand von zehn Sekunden auf der X-Achse an beliebigen Stellen der Y-Achse entlang.
 
+![informatik hai](https://user-images.githubusercontent.com/42734752/48854356-01811b00-edb2-11e8-85e7-4b90861edfe0.jpg)
+
+Wird die Spielfigur von diesem Hai berührt ist das Spiel vorbei, da man "gefressen" wird. Die Spielfigur beendet das Spiel in dem es "Game over" sagt.
+
+![informatik game over](https://user-images.githubusercontent.com/42734752/48854463-49a03d80-edb2-11e8-985f-4d8d72348dca.jpg)
