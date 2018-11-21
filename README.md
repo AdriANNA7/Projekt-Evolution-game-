@@ -23,7 +23,7 @@ Gewonnen ist das Spiel, wenn man sich bis zu einem Menschen entwickelt hat.
  ## Aufbau/Konzept<a name="2"></a>
 
 **Start:**
-Wenn die "kleine grüne Flagge" geklickt wird, startet das Spiel. Dadurch erscheint die erste Spielfigur (Sprite 1) im Zentrum des Bildschirms und zwar durch die Befehle *show* und *go to center* in einer passenden Größe *set size to 25%*. Dieser letzte Befehl wird je nach Figur unterschiedlich eingestellt, um es möglichst angenehm für den Benutzer zu machen.
+Wenn die "kleine grüne Flagge" geklickt wird, startet das Spiel. Dadurch erscheint die erste Spielfigur (Sprite 1) im Zentrum des Bildschirms und zwar durch die Befehle *show* und *go to center* in einer passenden Größe *set size to 25%*. Dieser letzte Befehl wird je nach Figur unterschiedlich eingestellt, um es visuell möglichst angenehm für den Benutzer zu machen.
 
 Zusätzlich wird die selbsterstellte Variable "Score" auf 0 gestellt durch *set score to 0*. "Score" zeigt in dem Spiel das Ergebnis an.
 
