@@ -6,7 +6,7 @@
 
 [3. Design](#3)
 
-
+[4. Schwiergkeitslevel](#4)
 
 ## Einleitung<a name="1"></a>
 
@@ -54,10 +54,16 @@ Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt ein
 Bildlich erklärt muss die Spielfigur/der Spieler die Alge (Sprite 2) fangen und "fressen". Daurch wird der Einzeller vorläufig größer und entwickelt sich dann weiter. Die Spielfigur wechselt also ihr Aussehen in dem die *Costumes* geändert werden.
 Bei unterschiedlichen Score befindet sich die Spielfigur in unterschiedlichen Etappen.
 
-Score: 11 - 20 : Qualle
+**Score: 11 - 20 : Qualle
 Score: 21 - 30 : Tintenfisch
-Score: 31 - 40 : Krebs
+Score: 31 - 40 : Krebs**
 
 ![kostume informatik](https://user-images.githubusercontent.com/42734752/48853495-eb725b00-edaf-11e8-9ca4-6227a05b5ef4.jpg) ![informatik befehle kostume](https://user-images.githubusercontent.com/42734752/48853600-21174400-edb0-11e8-8602-d249c0f0dff9.jpg)
 
-Bei einem Score über 40 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand.
+Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand. Zusätzlich erscheint eine goldene 30, damit der Evolutionsschritt vom Wasser zum Land noch deutlicher gemacht wird. Das goldene 30 ist Sprite 3.
+
+
+## Schwierigkeitslevel<a name="4"></a>
+
+Um das Spiel schwieriger zu machen, gibt es auch noch ein viertes Sprite, welches einen Feind darstellt. In dem Evolutionsspiel ist dies ein Hai. Dieser gleitet im Abstand von zehn Sekunden auf der X-Achse an beliebigen Stellen der Y-Achse entlang. Wird die Spielfigur von diesem Hai berührt ist das Spiel vorbei, da man "gefressen" wird. Die Spielfigur beendet das Spiel in dem es "Game over" sagt.
+
