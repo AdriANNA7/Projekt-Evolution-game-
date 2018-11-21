@@ -36,3 +36,28 @@ Das gleiche passiert, wenn man die *Spacetaste* drückt. Allerdings gibt es hier
 Dies ist unser erstes Sprite mit dem ersten Script. Dieser wird mit den Pfeiltasten gesteuert, sodass er sich über den Bildschirm bewegt.
 
 ![sprite bewegung](https://user-images.githubusercontent.com/42734752/48779370-c0b4d380-ecd7-11e8-8cb2-51cf34407c0c.jpg)
+
+Dazu gibt es ein zweites Sprite, welches sich random/zufällig auf dem Bildschirm bewegt.
+
+![informatik sprite 2](https://user-images.githubusercontent.com/42734752/48852438-a3523900-edad-11e8-9562-d56518b6a22c.jpg)
+
+Wird Sprite 2 von Sprite 1 berührt, wartet es einen kurzen Augenblick (0,05 sek.) und geht dann wieder auf eine zufällige Position. Zusätzlich wird dadurch den Score um genau 1 erhöht.
+
+![informatik beruhrung von 1 und 2](https://user-images.githubusercontent.com/42734752/48852650-1eb3ea80-edae-11e8-8b24-9a577bcf86d3.jpg)
+
+## Design<a name="3"></a>
+
+Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt eines Einzellers. Der Hintergrund ist eine Unterwasserwelt und Sprite 2 stellt eine Art ALge dar.
+
+![design informatik](https://user-images.githubusercontent.com/42734752/48853002-d5b06600-edae-11e8-82bf-9fb7bde57aa2.jpg)
+
+Bildlich erklärt muss die Spielfigur/der Spieler die Alge (Sprite 2) fangen und "fressen". Daurch wird der Einzeller vorläufig größer und entwickelt sich dann weiter. Die Spielfigur wechselt also ihr Aussehen in dem die *Costumes* geändert werden.
+Bei unterschiedlichen Score befindet sich die Spielfigur in unterschiedlichen Etappen.
+
+Score: 11 - 20 : Qualle
+Score: 21 - 30 : Tintenfisch
+Score: 31 - 40 : Krebs
+
+![kostume informatik](https://user-images.githubusercontent.com/42734752/48853495-eb725b00-edaf-11e8-9ca4-6227a05b5ef4.jpg) ![informatik befehle kostume](https://user-images.githubusercontent.com/42734752/48853600-21174400-edb0-11e8-8602-d249c0f0dff9.jpg)
+
+Bei einem Score über 40 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand.
