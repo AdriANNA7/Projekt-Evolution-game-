@@ -10,7 +10,7 @@
 
 ## Einleitung<a name="1"></a>
 
-  Das Spiel "Evolution Game" ist ein leicht zu verstehendes Spiel, welches sich mit der Evolution auseinandersetzt. Es ist sowohl für Kinder, als auch für Erwachsene ein schöner Zeitvertreib. Auch für angehende Programmierer ist das Spiel gut geeignet, da es viele verschiedene Funktionen des Programm Snaps! beinhaltet, welche in diesem Spiel kombiniert werden. 
+  Das Spiel "Evolution Game" ist ein leicht zu verstehendes Spiel, welches sich an dem Verlauf der Evolution orientiert und diese verkindlicht darstellt. Es ist sowohl für Kinder, als auch für Erwachsene ein schöner Zeitvertreib. Auch für angehende Programmierer ist das Spiel gut geeignet, da es viele verschiedene Funktionen des Programm Snaps! beinhaltet, welche in diesem Spiel kombiniert werden. 
 Unter anderem setzt man sich mit der kontrollierten Bewegung der Figuren auseinander, wie auch mit automatisch ablaufenden Figuren, welche man nicht eigenständig steuern kann. Auch das Design der Figuren und des Hintergrundes, so wie dessen Wechsels, sind in dem Spiel von Bedeutung. 
  
  Das Spiel setzt sich aus mehreren Scripts auf verschiedenen Blocks zusammen. Jedes Sprite hat ein eigenen Block auf dem programmiert wird, wie es sich verhalten soll, in dem man verschiedene Scripts erstellt.
