@@ -47,7 +47,7 @@ Wird Sprite 2 von Sprite 1 berührt, wartet es einen kurzen Augenblick (0,05 sek
 
 ## Design<a name="3"></a>
 
-Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt eines Einzellers. Der Hintergrund ist eine Unterwasserwelt und Sprite 2 stellt eine Art ALge dar.
+Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt eines Einzellers zusehen. Der Hintergrund ist eine Unterwasserwelt und Sprite 2 stellt eine Art Alge dar.
 
 ![design informatik](https://user-images.githubusercontent.com/42734752/48853002-d5b06600-edae-11e8-82bf-9fb7bde57aa2.jpg)
 
