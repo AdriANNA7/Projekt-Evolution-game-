@@ -51,12 +51,14 @@ Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt ein
 
 ![design informatik](https://user-images.githubusercontent.com/42734752/48853002-d5b06600-edae-11e8-82bf-9fb7bde57aa2.jpg)
 
-Bildlich erklärt muss die Spielfigur/der Spieler die Alge (Sprite 2) fangen und "fressen". Daurch wird der Einzeller vorläufig größer und entwickelt sich dann weiter. Die Spielfigur wechselt also ihr Aussehen in dem die *Costumes* geändert werden.
-Bei unterschiedlichen Score befindet sich die Spielfigur in unterschiedlichen Etappen.
+Bildlich erklärt muss die Spielfigur/der Spieler die Alge (Sprite 2) fangen und "fressen". Dadurch wird der Einzeller vorläufig größer und entwickelt sich dann weiter. Die Spielfigur wechselt also ihr Aussehen in dem die *Costumes* geändert werden.
+Bei unterschiedlichen Scores befindet sich die Spielfigur in unterschiedlichen Etappen.
 
-**Score: 11 - 20 : Qualle
-Score: 21 - 30 : Tintenfisch
-Score: 31 - 40 : Krebs**
+**Score: 11 - 20 : Qualle**
+
+**Score: 21 - 30 : Tintenfisch**
+
+**Score: 31 - 40 : Krebs**
 
 ![kostume informatik](https://user-images.githubusercontent.com/42734752/48853495-eb725b00-edaf-11e8-9ca4-6227a05b5ef4.jpg) ![informatik befehle kostume](https://user-images.githubusercontent.com/42734752/48853600-21174400-edb0-11e8-8602-d249c0f0dff9.jpg)
 
