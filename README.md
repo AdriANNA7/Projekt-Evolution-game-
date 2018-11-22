@@ -66,7 +66,7 @@ Um einen begrenzten Score-Bereich für das jeweilige *Costume* zu programmieren,
 
 ![kostume informatik](https://user-images.githubusercontent.com/42734752/48853495-eb725b00-edaf-11e8-9ca4-6227a05b5ef4.jpg) ![informatik befehle kostume](https://user-images.githubusercontent.com/42734752/48853600-21174400-edb0-11e8-8602-d249c0f0dff9.jpg)
 
-Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand. Zusätzlich erscheint eine goldene 30, damit der Evolutionsschritt vom Wasser zum Land noch deutlicher gemacht wird. Das goldene 30 ist Sprite 3.
+Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand. Zusätzlich erscheint eine goldene 30, damit der Evolutionsschritt vom Wasser zum Land noch deutlicher gemacht wird. Das goldene 30 ist Sprite 3. Dafür wird das Script unter dem Befehl *when score = 30* erstellt. Die 30 erscheint durch den Befehl *show* und *go to center* im Zentrum des Bildes für nur 2 Sekunden (*wait 2 secs*). Damit es danach nicht mehr zusehen ist und von alleine verschwindet, benötigt man den Befehl, *set size to 0* nach dem das Sprite 2 Sekunden zusehen war. Damit es jedes Mal wieder funktioniert, werden die Scripts für das Klicken der "kleinen grünen Flagge" und der Spacetaste, dass es auf 100 Prozent der Größe zurückgestellt wird (*set size to 100%*), allerdings versteckt (*hide*).
 
 ![informatik 30](https://user-images.githubusercontent.com/42734752/48854235-acdda000-edb1-11e8-859d-170371d7d270.jpg)
 
