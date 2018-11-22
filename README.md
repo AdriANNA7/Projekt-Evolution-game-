@@ -29,30 +29,34 @@ Zusätzlich wird die selbsterstellte Variable "Score" auf 0 gestellt durch *set 
 
 ![1 1](https://user-images.githubusercontent.com/42734752/48783533-f01c0e00-ece0-11e8-90b4-d0068def0e3b.jpg)
 
-Das gleiche passiert, wenn man die *Spacetaste* drückt. Allerdings gibt es hier die erweiterte Funktion, dass zum Anfangsdesign gewechselt wird, was später noch erläutert wird.
+Das gleiche passiert, wenn man die *Spacetaste* drückt. Dies dient dazu, das Spiel wieder neu anfangen zu können. Allerdings gibt es hier die erweiterte Funktion, dass zum Anfangsdesign gewechselt wird (*switch to costume [...]*).
 
 ![1 2](https://user-images.githubusercontent.com/42734752/48783732-691b6580-ece1-11e8-8b5e-8f577458cee8.jpg)
 
-Dies ist unser erstes Sprite mit dem ersten Script. Dieser wird mit den Pfeiltasten gesteuert, sodass er sich über den Bildschirm bewegt.
+Dies ist unser erstes Sprite mit dem ersten Script. Dieser wird mit den Pfeiltasten gesteuert, sodass er sich über den Bildschirm bewegt. Damit sich das Sprite bewegt, wird für die jeweiligen Pfeiltasten der Befehl *change y by [20]* eingefügt. Die Zahl 20 besagt, wie weit nach vorne sich der Pfeil bewegt.
+Dazu dreht sich das Sprite bei den Pfeiltasten links und rechts in die jeweilige Richtung mit , um es realistischer aussehen zu lassen.
+Deswegen ist nur bei *arrow left* und *arrow right* der zusätzliche Befehl *point in direction[...]* vorhanden. In das freie Feld werden die passende Gradzahl reingeschreiben. 
+Links: 0° Rechts: 180° 
 
 ![sprite bewegung](https://user-images.githubusercontent.com/42734752/48779370-c0b4d380-ecd7-11e8-8cb2-51cf34407c0c.jpg)
 
-Dazu gibt es ein zweites Sprite, welches sich random/zufällig auf dem Bildschirm bewegt.
+Dazu gibt es ein zweites Sprite, welches random/zufällig auf dem Bildschirm erscheint. Jedesmal bevor es wieder auftaucht, verschwindet es und wird dann an seiner neuen Position sichtbar. Dieser Ablauf wird unter anderem durch den Befehl *go to random position* gewährleistet. Dann sollte er eine Sekunde warten (Befehl:*wait 1 secs*), bis er dann wieder durch den Befehl *show* sichtbar wird. Er ist dann fünf Sekunden lang sichtbar (Befehl: *wait 5 secs*) ist, damit man das zweite Sprite mit dem ersten Sprite fangen kann. Das ganze sollte sich ständig (unendlich) wiederholen, weshalb dieses Script mit dem Befehl *forever* umschlossen ist. Das gleiche wird auch durch drücken der Spacetaste erreicht.
 
 ![informatik sprite 2](https://user-images.githubusercontent.com/42734752/48852438-a3523900-edad-11e8-9562-d56518b6a22c.jpg)
 
-Wird Sprite 2 von Sprite 1 berührt, wartet es einen kurzen Augenblick (0,05 sek.) und geht dann wieder auf eine zufällige Position. Zusätzlich wird dadurch den Score um genau 1 erhöht.
+Wird Sprite 2 von Sprite 1 berührt (*when touching sprite 1*), wartet es einen kurzen Augenblick (0,05 sek./* wait 0.05 secs*) und geht dann durch den Befehl *go to random position* wieder auf eine zufällige Position. Zusätzlich wird dadurch der Score um genau 1 erhöht (*change score by 1*). Die kurze Wartezeit verhindert eine lange Berührung der beiden Sprites, um den Score nicht mehrfach zu erhöhen. 
 
 ![informatik beruhrung von 1 und 2](https://user-images.githubusercontent.com/42734752/48852650-1eb3ea80-edae-11e8-8b24-9a577bcf86d3.jpg)
 
 ## Design<a name="3"></a>
 
-Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt eines Einzellers zusehen. Der Hintergrund ist eine Unterwasserwelt und Sprite 2 stellt eine Art Alge dar.
+Da es sich um ein Evolutionsspiel handelt, ist Sprite 1 zunächst in Gestalt eines Einzellers zusehen. Der Hintergrund ist eine Unterwasserwelt und Sprite 2 stellt eine Art Alge dar. Die grafische Darstellung (*Costumes* und *Stages*) wurden aus dem Internet importiert.
 
 ![design informatik](https://user-images.githubusercontent.com/42734752/48853002-d5b06600-edae-11e8-82bf-9fb7bde57aa2.jpg)
 
 Bildlich erklärt muss die Spielfigur/der Spieler die Alge (Sprite 2) fangen und "fressen". Dadurch wird der Einzeller vorläufig größer und entwickelt sich dann weiter. Die Spielfigur wechselt also ihr Aussehen in dem die *Costumes* geändert werden.
 Bei unterschiedlichen Scores befindet sich die Spielfigur in unterschiedlichen Etappen.
+Um einen begrenzten Score-Bereich für das jeweilige *Costume* zu programmieren, musste der Befehl *when score > [...] and < [...]* mit dem Befehl *switch to costume* kombiniert werden. Für den freien Bereichen werden die jeweiligen Werte der Anfangs- und Endscores, in denen das passende *Costume* auftreten soll, geschrieben.
 
 **Score: 11 - 20 : Qualle**
 
