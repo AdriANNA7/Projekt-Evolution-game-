@@ -89,5 +89,23 @@ Schafft der Spieler es bis zum *Costume* des Krebses, also bis zu Score 30, ersc
 
 ![stop hai](https://user-images.githubusercontent.com/42734752/48906203-07373900-ee64-11e8-818f-07b38419a1c1.jpg)
 
+Sprite 1:
+
+![1sprite](https://user-images.githubusercontent.com/42734752/48907172-fb00ab00-ee66-11e8-8b49-dbac9b82cf0e.jpg)
+
+Sprite 2:
+
+![2 sprite](https://user-images.githubusercontent.com/42734752/48907190-081d9a00-ee67-11e8-8c06-dd2ca81fdbc8.jpg)
+
+Sprite 3:
+
+![3 sprite](https://user-images.githubusercontent.com/42734752/48907225-1966a680-ee67-11e8-8c48-453331dee63b.png)
+
+Sprite 4:
+
+![4 sprite](https://user-images.githubusercontent.com/42734752/48907249-297e8600-ee67-11e8-9cce-a8242c029087.jpg)
+
+
+
 
 
