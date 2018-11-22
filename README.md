@@ -73,10 +73,21 @@ Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu 
 
 ## Schwierigkeitslevel<a name="4"></a>
 
-Um das Spiel schwieriger zu machen, gibt es auch noch ein viertes Sprite, welches einen Feind darstellt. Im Evolutionsspiel ist dies ein Hai. Dieser gleitet im Abstand von zehn Sekunden auf der X-Achse an beliebigen Stellen der Y-Achse entlang.
+Um das Spiel schwieriger zu machen, gibt es auch noch ein viertes Sprite, welches einen Feind darstellt. Im Evolutionsspiel ist dies ein Hai. Dieser gleitet zehn Sekunden lang auf der x-Achse und startet im Abstand von fünf Sekunden random/zufällig auf der y-Achse. Dieser Vorgang soll sich beliebig wiederholen. Dafür wird in den Befehl *forever*, da es immer wieder auftauchen soll, zum einen der Befehl *set x to -350* eingefügt, damit es von der linken Bildschirmseite aus startet und vorher nicht zu sehen ist und zum anderen der Befehl *point in direction 90*, so dass das Sprite nach rechts zeigt und es realistisch aussieht. Damit es wie ein Fisch im Wasser gleitet, wird der Befehl *glide 10 sec to x: 350 y: pick random -180 to 100)* verwendet. X: 350 wird ausgewählt, damit das Sprite komplett aus dem Bild verschwindet und die Y-Koordinaten werden ständig random in einem bestimmten Bereich gewählt. Danach wartet Sprite 4 fünf Sekunden lang (*wait 5 secs*) bis der Vorgang sich wieder wiederholt.
 
 ![informatik hai](https://user-images.githubusercontent.com/42734752/48854356-01811b00-edb2-11e8-85e7-4b90861edfe0.jpg)
 
-Wird die Spielfigur von diesem Hai berührt ist das Spiel vorbei, da man "gefressen" wird. Die Spielfigur beendet das Spiel in dem es "Game over" sagt.
+Wird die Spielfigur von diesem Hai berührt ist das Spiel vorbei, da man "gefressen" wird. Für diesen Effekt wurden zwei *Costumes* des Hais importiert: **Shark a** und **Shark b**. Wenn das Sprite 4 die Spielfigur berührt (*when touching Sprite 1*) wechselt das *Costume zu **Shark b** (*switch to Costume shark b*). Dies stellt den gleichen Hai nur mit aufgerissenem Maul dar. Dies lässt es aussehen als würde Sprite 1 tatsächlich gefressen werden. Nachdem das zweite Costume für eine Sekunde lang gezeigt wurde, wechselt es dann wieder zum ersten *Costume* (*switch to costume shark a*).
+
+![informatik hai](https://user-images.githubusercontent.com/42734752/48906025-79f3e480-ee63-11e8-8c71-0296e16e3df2.jpg)
+
+Die Spielfigur beendet das Spiel in dem es "Game over" sagt. Unter dem Befehl *when touching Sprite 4*, also wenn Sprite 1 Sprite 4 berührt, wird der Befehl *say "Game over" for 2 secs* eingefügt. Dann wartet Sprite 1 0.1 Sekunden (*wait 0.1 secs*), verschwindet (*hide*) und alle Blöcke werden gestoppt (*stop all*).
 
 ![informatik game over](https://user-images.githubusercontent.com/42734752/48854463-49a03d80-edb2-11e8-985f-4d8d72348dca.jpg)
+
+Schafft der Spieler es bis zum *Costume* des Krebses, also bis zu Score 30, erscheint der Hai nicht länger (*when score > 30* - *hide*) Dazu wird der Block für den Hai gestoppt (*stop other scripts in sprite*).
+
+![stop hai](https://user-images.githubusercontent.com/42734752/48906203-07373900-ee64-11e8-818f-07b38419a1c1.jpg)
+
+
+
