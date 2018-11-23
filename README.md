@@ -61,13 +61,27 @@ Um einen begrenzten Score-Bereich für das jeweilige *Costume* zu programmieren,
 
 **Score: 11 - 20 : Qualle**
 
-**Score: 21 - 30 : Tintenfisch**
+**Score: 21 - 30 : Fisch**
 
 **Score: 31 - 40 : Krebs**
 
-![kostume informatik](https://user-images.githubusercontent.com/42734752/48853495-eb725b00-edaf-11e8-9ca4-6227a05b5ef4.jpg) ![informatik befehle kostume](https://user-images.githubusercontent.com/42734752/48853600-21174400-edb0-11e8-8602-d249c0f0dff9.jpg)
+**Score: 41 - 50 : Amphibie**
+
+**Score: 51 - 60 : Reptil**
+
+**Score: 61 - 70 : Affe**
+
+**Score: 71 - 80 : Mensch**
+
+
+![costumes 1](https://user-images.githubusercontent.com/42734752/48954550-4c359b00-ef4a-11e8-857d-8a57cb78f316.png)
+![codes 1](https://user-images.githubusercontent.com/42734752/48954635-b2222280-ef4a-11e8-9675-f841db661d14.jpg)
+
+![costumes 2](https://user-images.githubusercontent.com/42734752/48954594-7d15d000-ef4a-11e8-862f-f62c98093506.jpg)
+![codes 2](https://user-images.githubusercontent.com/42734752/48954661-d5e56880-ef4a-11e8-98e1-7403f5cc5e00.jpg)
 
 Bei einem Score über 30 ändert sich auch der Hintergrund passend zum Krebs zu einem Sandstrand. Zusätzlich erscheint eine goldene 30, damit der Evolutionsschritt vom Wasser zum Land noch deutlicher gemacht wird. Das goldene 30 ist Sprite 3. Dafür wird das Script unter dem Befehl *when score = 30* erstellt. Die 30 erscheint durch den Befehl *show* und *go to center* im Zentrum des Bildes für nur 2 Sekunden (*wait 2 secs*). Damit es danach nicht mehr zusehen ist und von alleine verschwindet, benötigt man den Befehl, *set size to 0* nach dem das Sprite 2 Sekunden zusehen war. Damit es jedes Mal wieder funktioniert, werden die Scripts für das Klicken der "kleinen grünen Flagge" und der Spacetaste, dass es auf 100 Prozent der Größe zurückgestellt wird (*set size to 100%*), allerdings versteckt (*hide*).
+Bei einem Score von 50 wechselt der Hintergrund zu einer Wiese, da die Spielfigur dann zu einem Säugetier(Affe) wird und auch Sprite 2 verändert sich zu einer Banane.
 
 ![informatik 30](https://user-images.githubusercontent.com/42734752/48854235-acdda000-edb1-11e8-859d-170371d7d270.jpg)
 
@@ -92,11 +106,11 @@ Schafft der Spieler es bis zum *Costume* des Krebses, also bis zu Score 30, ersc
 
 Sprite 1:
 
-![1sprite](https://user-images.githubusercontent.com/42734752/48907172-fb00ab00-ee66-11e8-8b49-dbac9b82cf0e.jpg)
+![sprite 1](https://user-images.githubusercontent.com/42734752/48954883-9a976980-ef4b-11e8-9e76-180ec8e57bad.jpg)
 
 Sprite 2:
 
-![2 sprite](https://user-images.githubusercontent.com/42734752/48907190-081d9a00-ee67-11e8-8c06-dd2ca81fdbc8.jpg)
+![sprite 2](https://user-images.githubusercontent.com/42734752/48954923-c0bd0980-ef4b-11e8-987f-3615cebff124.jpg)
 
 Sprite 3:
 
