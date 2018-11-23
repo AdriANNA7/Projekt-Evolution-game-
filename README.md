@@ -11,13 +11,14 @@
 ## Einleitung<a name="1"></a>
 
 Das Spiel "Evolution Game" ist ein leicht zu verstehendes Spiel, welches sich thematisch am Verlauf der Evolution orientiert und diese stark vereinfacht darstellt. Es ist sowohl für Kinder, als auch für Erwachsene ein schöner Zeitvertreib. 
-Auch für angehende Programmierer ist das Spiel vom Aufbau her gut geeignet, da es viele verschiedene Funktionen des Programm Snaps! beinhaltet, welche in diesem Spiel kombiniert werden. Unter anderem setzt man sich mit der kontrollierten Bewegung der Figuren auseinander, wie auch mit automatisch programmgesteuerten Figuren, welche man eben nicht eigenständig steuern kann. Auch das Design der Figuren und des Hintergrundes, so wie deren Wechsel, sind in dem Spiel von Bedeutung. 
+
+Es ist mit dem Programm **Snap!** programmiert worden. Deswegen werden im Folgendem Begriffe der Programmiersprache Snap! verwendet, um zu erläutern, wie das Spiel funktioniert. Für angehende Programmierer ist das Spiel vom Aufbau her gut geeignet, da es viele verschiedene Funktionen des Programm Snaps! beinhaltet, welche in diesem Spiel kombiniert werden. Unter anderem setzt man sich mit der kontrollierten Bewegung der Figuren auseinander, wie auch mit automatisch programmgesteuerten Figuren, welche man eben nicht eigenständig steuern kann. Auch das Design der Figuren und des Hintergrundes, so wie deren Wechsel, sind in dem Spiel von Bedeutung. 
  
 Das Spiel setzt sich aus mehreren Scripts auf verschiedenen Blocks zusammen. Jedes Sprite hat ein eigenen Block auf dem programmiert wird, wie es sich verhalten soll, in dem man verschiedene Scripts erstellt.
 
 **Beschreibung**
 
-Im Evolution Game ist man ein Spieler, welcher zunächst in Form eines Einzellers gezeigt wird, der Algen "essen" muss um größer zu werden. Pro Alge erhöht sich der Score um eins und ab bestimmten Scores entwickelt sich die Figur weiter. Passend zu den Figuren ändert sich auch der Hintergrund. Dazu bewegt sich auch ein "Feind" auf dem Bildschirm, welcher die Figur "fressen" kann. Damit wird das Spiel beendet und der Spieler ist "Game over". Am Anfang stellt der sogenannte Feind einen Hai dar. 
+Im Evolution Game ist man ein Spieler, welcher zunächst in Form eines Einzellers gezeigt wird, der Algen "essen" muss um größer zu werden. Die Alge bewegt sich zufällig auf der Bildschirmansicht und verweilt an einer Stelle zehn Sekunden. Wird die Alge aber von der Spielfigur berührt, also gefangen, bewegt die Alge sich direkt weiter. Berührt man die Alge, erhöht sich auch der Score, also die Anzahl an Treffern. Pro Berührung erhöht sich der Score um genau eins und ab bestimmten Scores entwickelt sich die Figur weiter. Passend zu den Figuren ändert sich auch der Hintergrund. Dazu bewegt sich auch ein "Feind" auf dem Bildschirm, welcher die Figur "fressen" kann. Dieser Feind tritt zunächst in Form eines Hais auf. Berührt die Spielfigur den Hai, wird das Spiel beendet und der Spieler ist "Game over". Berührt die Alge den Hai passiert nichts.
 Gewonnen ist das Spiel, wenn man sich bis zu einem Menschen entwickelt hat. 
  
  ## Aufbau/Konzept<a name="2"></a>
